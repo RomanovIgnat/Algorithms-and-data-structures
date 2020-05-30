@@ -12,7 +12,7 @@ type mutedSlice struct {
 }
 
 func mutedSliceConstructor(size int) *mutedSlice {
-	this := new(mutedSlice)
+    this := new(mutedSlice)
     this.data = make([]int, size)
     this.done = make([]bool, size)
     return this
